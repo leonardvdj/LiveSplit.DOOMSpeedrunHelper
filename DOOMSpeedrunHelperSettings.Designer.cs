@@ -49,6 +49,11 @@
             // nudSpeed
             // 
             this.nudSpeed.Location = new System.Drawing.Point(67, 37);
+            this.nudSpeed.Maximum = new decimal(new int[] {
+            50,
+            0,
+            0,
+            0});
             this.nudSpeed.Minimum = new decimal(new int[] {
             2,
             0,
